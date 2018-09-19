@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProductListComponent implements OnInit {
 
-  private products : Product[];
+  products : Product[];
   constructor(private _productService : ProductService) { }
 
   ngOnInit() {
